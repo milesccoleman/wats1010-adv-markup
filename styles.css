@@ -1,1 +1,90 @@
-/* Styles for the Advanced Markup assignment. */
+ul.top-nav li {
+   border-style: inset;  
+   border-color: blue; 
+   border-width: 1px; 
+   border-radius: 8px; 
+   margin: 0; 
+	 list-style-type: none; 
+   text-align: center; 
+	 background-color: none;
+   display: inline; 
+   text-decoration: none; 
+	 padding: .2em 1em; 
+	 text-color: orange; 
+   padding-bottom: 10px; 
+   padding-top: 10px; 
+}
+ul.top-nav li:hover { 
+	color: blue; 
+	background-color: blue; 
+	} 
+h1{
+   margin: auto;
+   padding: 40px;
+   text-align: left; 
+   margin-left:25px; 
+}
+#sidebar {  
+  margin:35px;
+  padding: 15px, 0, 0, 0; 
+  float:left;
+  width:200px;
+  list-style-type: bullets; 
+  border-style: solid; 
+  border-color: black; 
+  border-width: 2px; 
+  text-align: left; 
+  border-radius: 12px; 
+	margin-top: 100px; 
+}
+h2{
+  text-align: center; 
+}
+section#content {
+  border-style: solid; 
+  padding: 25px; 
+  border-width: 3px; 
+  border-color: blue; 
+  border-radius: 25px; 
+  margin-left: 400px; 
+  margin-right: 100px; 
+  margin-bottom: 50px; 
+  margin-top: 0; 
+  float: right; 
+  position: relative; 
+  bottom: 440px; 
+  img style=float; 
+}
+img {
+  display: block; 
+  float: right; 
+  width: 200px;
+  padding: 25px; 
+}
+i {
+	float: right; 
+  width: 200px; 
+  text-align: center; 
+  border-style: dotted; 
+  border-width: 1px; 
+  border-color: grey; 
+}
+#selected_works {
+}
+ul.bottom-nav li {
+    display: inline;
+		float: center; 
+}
+ul.poem li {
+  list-style: none; 
+}
+footer {
+height: 50px; 
+	background: none;
+	width: inherit;
+	text-align: left;
+	position: relative; 
+	top: 950px; 
+	width: 300px; 
+	margin-left: 500px; 
+}
